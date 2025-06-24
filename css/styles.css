@@ -92,7 +92,7 @@
 
  #email-container ion-icon,
  #email-container a {
-    flex 1 1 0;
+    flex: 1 1 0;
  }
 
  #email-container a {
@@ -185,5 +185,5 @@
 
  .skills-box i {
     font-size: 45px;
-    margin-right 10px;
+    margin-right: 10px;
  }

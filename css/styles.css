@@ -267,3 +267,17 @@
   margin-bottom: 8px; /* novo: separa ícones empilhados */
   display: inline-block;
 }
+
+#btn-projects {
+  transition: background-color .3s, color .3s;
+}
+#btn-projects:hover {
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+  #container { flex-direction: column; }
+  #about-container { padding: 20px; }
+  .description { max-width: 95%; }
+}

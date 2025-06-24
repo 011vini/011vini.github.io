@@ -187,3 +187,83 @@
     font-size: 45px;
     margin-right: 10px;
  }
+
+ /* mobile */
+ @media(max-width: 450px) {
+
+   #container {
+      flex-direction: column;
+   }
+
+   #bio-container {
+      min-height: auto;
+      border-right: none;
+      border-bottom: 5px solid var(--bio-border-color);
+   }
+
+   #bio-container h2 {
+      display: none;
+   }
+
+   #bio-container p {
+      max-width: 60%;
+      margin: 10px auto;
+
+   }
+
+   #about-container {
+      text-align: center;
+      padding: 30px;
+   }
+
+   #about-container .description {
+      margin: 10px auto;
+      max-width: 100%;
+      line-height: 26px;
+   }
+
+   #btn-projects {
+      margin: 20px auto;
+   }
+
+   .skills-box {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin-bottom: 40px;
+      text-align: left;
+   }
+
+   .skills-box i {
+      font-size: 60px;
+   }
+ }
+
+ /* Corrige ícone do GitHub invisível */
+.github-icon {
+  color: #fff;
+}
+
+/* Mais espaço entre as caixas de skills */
+.skills-box {
+  flex: 1 1 33%;
+  max-width: 33%;
+  margin-bottom: 60px; 
+  padding-right: 20px; 
+}
+
+/* Mais espaço abaixo dos títulos */
+.skills-title {
+  font-size: 24px;
+  margin-bottom: 30px; 
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid var(--main-color);
+}
+
+/* Ajuste geral dos ícones */
+.skills-box i {
+  font-size: 45px;
+  margin-right: 10px;
+  margin-bottom: 8px; /* novo: separa ícones empilhados */
+  display: inline-block;
+}
